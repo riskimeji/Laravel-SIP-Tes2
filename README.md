@@ -22,6 +22,7 @@ Pastikan Anda telah menginstal [Composer](https://getcomposer.org/) di komputer 
 
 - Masuk ke folder proyek:
 `cd Perpustakaan-SIP-Tes2`
+- Buat file .env
 - Salin isi file .env.example ke dalam file .env:
 - Konfigurasi database di file .env sesuai dengan pengaturan database Anda.
 - Buat database dengan nama `db_perpustakaan`.
