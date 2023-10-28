@@ -18,10 +18,10 @@ Pastikan Anda telah menginstal [Composer](https://getcomposer.org/) di komputer 
 
 - Clone repository dari GitHub:
 
-git clone https://github.com/riskimeji/Perpustakaan-SIP-Tes2.git
+`git clone https://github.com/riskimeji/Perpustakaan-SIP-Tes2.git`
 
 - Masuk ke folder proyek:
-cd Perpustakaan-SIP-Tes2
+`cd Perpustakaan-SIP-Tes2`
 - Salin isi file .env.example ke dalam file .env:
 `cp .env.example .env`
 - Konfigurasi database di file .env sesuai dengan pengaturan database Anda.
