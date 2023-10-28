@@ -17,6 +17,7 @@ Pastikan Anda telah menginstal [Composer](https://getcomposer.org/) di komputer 
 Pastikan Anda telah menginstal [Node](https://getcomposer.org/) di komputer Anda.
 
 Versi yang Saya gunakan
+
 `PHP 8.1.4`
 
 `COMPOSER 2.5.8`
