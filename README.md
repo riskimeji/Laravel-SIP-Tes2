@@ -37,10 +37,12 @@ cd Perpustakaan-SIP-Tes2
 ### Akun Demo
 #### Staff
 email: `staff@test.com`
+
 password: `password`
 
 #### Member/Visitor
 email: `visitor@test.com`
+
 password: `password`
 
 
