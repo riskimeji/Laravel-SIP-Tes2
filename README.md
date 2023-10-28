@@ -29,9 +29,9 @@ Pastikan Anda telah menginstal [Node](https://getcomposer.org/) di komputer Anda
 - Konfigurasi database di file .env sesuai dengan pengaturan database Anda.
 - example :
   
-   `` DB_DATABASE=db_perpustakaan
-    DB_USERNAME=root
-    DB_PASSWORD=``
+   ``DB_DATABASE=db_perpustakaan``
+    ``DB_USERNAME=root``
+    ``DB_PASSWORD=``
   
 - Buat database dengan nama `db_perpustakaan`.
 - Impor file `db_perpustakaan.sql` ke dalam `db_perpustakaan`.
