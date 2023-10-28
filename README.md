@@ -23,16 +23,16 @@ git clone https://github.com/riskimeji/Perpustakaan-SIP-Tes2.git
 - Masuk ke folder proyek:
 cd Perpustakaan-SIP-Tes2
 - Salin isi file .env.example ke dalam file .env:
-cp .env.example .env
+`cp .env.example .env`
 - Konfigurasi database di file .env sesuai dengan pengaturan database Anda.
-- Buat database dengan nama db_perpustakaan.
-- Impor file db_perpustakaan.sql ke dalam database yang telah Anda buat.
+- Buat database dengan nama `db_perpustakaan`.
+- Impor file `db_perpustakaan.sql` ke dalam database yang telah Anda buat.
 - Jalankan perintah berikut untuk menghasilkan kunci aplikasi:
-  php artisan key:generate
+  `php artisan key:generate`
 - Install dependensi PHP menggunakan Composer:
-  composer install
+  `composer install`
 - Jalankan server lokal
-  php artisan serve
+  `php artisan serve`
 
 
  
