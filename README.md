@@ -44,7 +44,7 @@ Versi yang Saya gunakan
     ``DB_PASSWORD=``
   
 - Buat database dengan nama `db_perpustakaan`.
-- Impor file `db_perpustakaan.sql` ke dalam `db_perpustakaan`.
+- Impor file `db_perpustakaan.sql` ke dalam DATABASE `db_perpustakaan`.
 - Install dependensi PHP menggunakan Composer:
   `composer install`
 - Install dependensi Vite menggunakan NPM:
