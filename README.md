@@ -13,8 +13,17 @@ Berikut adalah langkah-langkah untuk menginstal proyek Perpustakaan dengan Larav
 ### Prasyarat
 
 Pastikan Anda telah menginstal [Composer](https://getcomposer.org/) di komputer Anda.
+
 Pastikan Anda telah menginstal [Node](https://getcomposer.org/) di komputer Anda.
 
+Versi yang Saya gunakan
+`PHP 8.1.4`
+
+`COMPOSER 2.5.8`
+
+`NPM 9.6.7`
+
+`NODE 18.7.1`
 
 ### Melalui Git
 
