@@ -51,7 +51,7 @@ Versi yang Saya gunakan
   `npm install vite`
 - Jalankan perintah berikut untuk menghasilkan kunci aplikasi:
   `php artisan key:generate`
-- Jalankan server lokal
+- Jalankan server lokal, jalankan 2 command ini di cmd
   `php artisan serve`
   `npm run dev`
 
