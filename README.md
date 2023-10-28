@@ -34,5 +34,14 @@ cd Perpustakaan-SIP-Tes2
 - Jalankan server lokal
   `php artisan serve`
 
+### Akun Demo
+#### Staff
+email: `staff@test.com`
+password: `password`
+
+#### Member/Visitor
+email: `visitor@test.com`
+password: `password`
+
 
  
