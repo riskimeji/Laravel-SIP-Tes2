@@ -22,8 +22,6 @@ Versi yang Saya gunakan
 
 `COMPOSER 2.5.8`
 
-`NPM 9.6.7`
-
 `NODE 18.7.1`
 
 ### Melalui Git
@@ -34,13 +32,15 @@ Versi yang Saya gunakan
 
 - Masuk ke folder proyek:
 `cd Perpustakaan-SIP-Tes2`
-- Buat file .env
-- Salin isi file .env.example ke dalam file .env:
-- Konfigurasi database di file .env sesuai dengan pengaturan database Anda.
+- Buat file `.env`
+- Salin isi file `.env.example` ke dalam file `.env`:
+- Konfigurasi database di file `.env` sesuai dengan pengaturan database Anda.
 - example :
   
    ``DB_DATABASE=db_perpustakaan``
+  
     ``DB_USERNAME=root``
+  
     ``DB_PASSWORD=``
   
 - Buat database dengan nama `db_perpustakaan`.
@@ -51,7 +51,7 @@ Versi yang Saya gunakan
   `npm install vite`
 - Jalankan perintah berikut untuk menghasilkan kunci aplikasi:
   `php artisan key:generate`
-- Jalankan server lokal, jalankan 2 command ini di cmd
+- Jalankan server lokal, jalankan 2 command ini di 2 cmd
   `php artisan serve`
   `npm run dev`
 
