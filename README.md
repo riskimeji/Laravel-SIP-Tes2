@@ -13,6 +13,8 @@ Berikut adalah langkah-langkah untuk menginstal proyek Perpustakaan dengan Larav
 ### Prasyarat
 
 Pastikan Anda telah menginstal [Composer](https://getcomposer.org/) di komputer Anda.
+Pastikan Anda telah menginstal [Node](https://getcomposer.org/) di komputer Anda.
+
 
 ### Melalui Git
 
@@ -25,14 +27,23 @@ Pastikan Anda telah menginstal [Composer](https://getcomposer.org/) di komputer 
 - Buat file .env
 - Salin isi file .env.example ke dalam file .env:
 - Konfigurasi database di file .env sesuai dengan pengaturan database Anda.
+- example :
+  
+   `` DB_DATABASE=db_perpustakaan
+    DB_USERNAME=root
+    DB_PASSWORD=``
+  
 - Buat database dengan nama `db_perpustakaan`.
-- Impor file `db_perpustakaan.sql` ke dalam database yang telah Anda buat.
-- Jalankan perintah berikut untuk menghasilkan kunci aplikasi:
-  `php artisan key:generate`
+- Impor file `db_perpustakaan.sql` ke dalam `db_perpustakaan`.
 - Install dependensi PHP menggunakan Composer:
   `composer install`
+- Install dependensi Vite menggunakan NPM:
+  `npm install vite`
+- Jalankan perintah berikut untuk menghasilkan kunci aplikasi:
+  `php artisan key:generate`
 - Jalankan server lokal
   `php artisan serve`
+  `npm run dev`
 
 ### Akun Demo
 #### Staff
